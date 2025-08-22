@@ -100,9 +100,9 @@ o
 ./LAB1_Cornejo_Lobos Input/
 ```
 ### Flujo de Trabajo Completo:
-1. Preparar la estructura: `make prepare` (crea carpeta Input)
-2. Extraer los archivos del ZIP proporcionado en la carpeta Input/
-3. Compilar el programa: `make`
+1. Compilar el programa: `make`
+2. Preparar la estructura: `make prepare` (crea carpeta Input)
+3. Extraer los archivos del ZIP proporcionado en la carpeta Input/
 4. Ejecutar: `make run`
 5. Ver resultados en la carpeta Output/
 
