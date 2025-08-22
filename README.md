@@ -130,6 +130,7 @@ Lab_1/
 ### Consideraciones Importantes:
 - ADVERTENCIA: Los archivos se mueven (no copian) de Input/ a Output/
 - ADVERTENCIA: El directorio Input/ quedará vacío después de la ejecución, pero se mantienen carpetas anidadas
+- Independiente si esta la carpeta o no se puede crear con `make prepare`, lo mismo con Output si no está al ejecutar el programa de crean los resultados de la carpeta
 - Los archivos se organizan exactamente como se especifica en el PDF
 - El programa genera estadísticas detalladas del procesamiento
 - El código sigue todas las reglas y especificaciones del laboratorio
