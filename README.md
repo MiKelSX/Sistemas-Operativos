@@ -69,6 +69,7 @@ Programa en C++ que clasifica y organiza archivos encontrados en una expedición
 - Creación automática de la estructura de carpetas de salida
 
 ### Estructura de Salida:
+```
 Output/
 ├── System/
 │   ├── Drivers/                 # Archivos .sys
@@ -76,7 +77,7 @@ Output/
 │   └── Dynamic Link-Library/    # Archivos .dll
 ├── Pistas/                      # Archivos de texto con información de log
 └── Basura/                      # Archivos no clasificables
-
+```
 ### Supuestos Utilizados:
 1. Los archivos de sistema se identifican principalmente por su extensión (.sys, .exe, .dll)
 2. Las pistas deben contener AMBOS patrones: "tipo: log" y "distancia:" como se muestra en el ejemplo del PDF
@@ -87,15 +88,17 @@ Output/
 7. El directorio Input debe existir y contener los archivos a procesar
 
 ### Instrucciones de Compilación:
+```
 make
-
+```
 ### Instrucciones de Ejecución:
+```
 make run
-
+```
 o
-
+```
 ./LAB1_Cornejo_Lobos Input/
-
+```
 ### Flujo de Trabajo Completo:
 1. Preparar la estructura: `make prepare` (crea carpeta Input)
 2. Extraer los archivos del ZIP proporcionado en la carpeta Input/
@@ -111,13 +114,14 @@ o
 - `make help` - Muestra ayuda de comandos
 
 ### Estructura del Proyecto:
+```
 Lab_1/
 ├── Input/                 # Archivos originales (proporcionados)
 ├── Output/                # Resultados generados (creado automáticamente)
 ├── LAB1_Cornejo_Lobos.cpp # Código fuente principal
 ├── Makefile              # Archivo de compilación
 └── README.md             # Este archivo
-
+```
 ### Requisitos del Sistema:
 - Compilador C++17 (g++ 7 o superior)
 - Sistema operativo Linux
