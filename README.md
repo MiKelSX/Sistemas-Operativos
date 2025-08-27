@@ -3,7 +3,7 @@
 
 ### Integrantes:
 - Miguel Cornejo, Rut: 21372437-1
-- Diego Lobos, Rut: 217991056
+- Diego Lobos, Rut: 21799105-6
 
 ### Descripción:
 Programa en C++ que clasifica y organiza archivos encontrados en una expedición arqueológica en Siberia según tres categorías: Sistema, Pistas y Basura, cumpliendo con los requisitos especificados en el PDF del laboratorio.
